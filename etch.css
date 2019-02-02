@@ -37,6 +37,6 @@ body {
   margin: 5px;
 }
 
-.cell.active {
+.active {
   background-color: pink;
 }

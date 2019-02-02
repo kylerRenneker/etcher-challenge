@@ -5,6 +5,19 @@
 $(() => {
   createAndPlaceRows(8);
 
+  // $('.row').find('.cell').on('mouseover', function(){
+  //   $(this).addClass('.active');
+  // });
+
+  $('.cell').mouseover(function() {
+    $(this).addClass('active');
+  })
+
+  $(':button').click(function() {
+    // event.preventDefault();
+    $('.cell').removeClass('active');
+  })
+  
   // Bind your event listeners here:
 });
 
